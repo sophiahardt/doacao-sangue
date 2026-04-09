@@ -1,20 +1,52 @@
-* {
+body{
+    background-image: url(assets/10483960-fundo-vermelho-branco-adequado-para-imagem-fundo-vermelho-e-branco-gratis-vetor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-body {
-    
+header{
+    background-color: white;
+    color: rgb(165, 8, 8);
+    padding: 15px;
+    border: 3px solid rgb(185, 0, 0);
+    display: flex;
+    justify-content: flex-start;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
-.conteiner {
-    
+main{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-
-
-.cadastro{
-    
+.logo{
+    width: 120px;
+    height: auto;
 }
+
+.conteiner{
+    background-color: white;
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.titulo{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+form{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
