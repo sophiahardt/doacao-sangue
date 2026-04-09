@@ -69,4 +69,6 @@ form.addEventListener("submit", function (event) {
     console.log(cadastros);
     alert("Cadastro realizado com sucesso");
 
+    form.reset();
+
 });
