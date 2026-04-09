@@ -19,7 +19,7 @@ header{
 
 main{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -30,22 +30,30 @@ main{
 
 .container{
     background-color: white;
-    width: 300px;
     border-radius: 15px;
+    width: 100%;
+    max-width: 500px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    padding-bottom: 30px;
+    margin-top: 20px;
+    
 }
 
 .titulo{
     background-color: red;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 12px;
     font-size: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h3{
+    margin: 0;
 }
 
 form{
-    padding: 30px;
+    padding: 25px 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
